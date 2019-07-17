@@ -1,0 +1,57 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::ip5_google_recaptcha"
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+msgctxt "Addons::description::ip5_google_recaptcha"
+msgid "Replace default captcha to google recaptcha"
+msgstr "Replace default captcha to google recaptcha"
+
+msgctxt "SettingsSections::ip5_google_recaptcha::elm_Settings"
+msgid "Default settings"
+msgstr "Default settings"
+
+msgctxt "SettingsOptions::ip5_google_recaptcha::key"
+msgid "Key"
+msgstr "Key"
+
+msgctxt "SettingsOptions::ip5_google_recaptcha::secretkey"
+msgid "Secret Key"
+msgstr "Secret Key"
+
+msgctxt "SettingsTooltips::ip5_google_recaptcha::key"
+msgid "Key (<a target=\"_blank\" href=\"https://www.google.com/recaptcha/intro/index.html\">find on this page</a>)"
+msgstr "Key (<a target=\"_blank\" href=\"https://www.google.com/recaptcha/intro/index.html\">find on this page</a>)"
+
+msgctxt "SettingsTooltips::ip5_google_recaptcha::secretkey"
+msgid "Secret Key (<a target=\"_blank\" href=\"https://www.google.com/recaptcha/intro/index.html\">find on this page</a>)"
+msgstr "Secret Key (<a target=\"_blank\" href=\"https://www.google.com/recaptcha/intro/index.html\">find on this page</a>)"
+
+msgctxt "SettingsOptions::ip5_google_recaptcha::type"
+msgid "The type of CAPTCHA to serve"
+msgstr "The type of CAPTCHA to serve"
+
+msgctxt "SettingsVariants::ip5_google_recaptcha::type::image"
+msgid "Image"
+msgstr "Image"
+
+msgctxt "SettingsVariants::ip5_google_recaptcha::type::audio"
+msgid "Audio"
+msgstr "Audio"
+
+msgctxt "SettingsOptions::ip5_google_recaptcha::theme"
+msgid "Theme"
+msgstr "Theme"
+
+msgctxt "SettingsVariants::ip5_google_recaptcha::theme::light"
+msgid "Light"
+msgstr "Light"
+
+msgctxt "SettingsVariants::ip5_google_recaptcha::theme::dark"
+msgid "Dark"
+msgstr "Dark"

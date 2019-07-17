@@ -1,0 +1,159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: coolposter-latest\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: cscart <olga@ip-5.ru>\n"
+"PO-Revision-Date: 2016-03-13 06:57-0500\n"
+
+msgctxt "Addons::name::ip5_coolposter"
+msgid "TODO"
+msgstr "АйПи5 Модульные картины"
+
+msgctxt "Addons::description::ip5_coolposter"
+msgid "TODO"
+msgstr "Модуль для модульных картин Coolposter от АйПи5"
+
+msgctxt "SettingsSections::ip5_coolposter::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::ip5_coolposter::client_id"
+msgid "TODO"
+msgstr "API Client ID"
+
+msgctxt "SettingsOptions::ip5_coolposter::client_secret"
+msgid "TODO"
+msgstr "API Client Secret"
+
+msgctxt "Languages::cool_forbidden_uploaded_file_type"
+msgid "TODO"
+msgstr "MIME тип [type] запрещен к загрузке"
+
+msgctxt "Languages::coolposter"
+msgid "TODO"
+msgstr "Coolposter"
+
+msgctxt "Languages::use_for_coolposter"
+msgid "TODO"
+msgstr "Использовать для Coolposter-а"
+
+msgctxt "Languages::cool_categories"
+msgid "TODO"
+msgstr "Категории разбивки"
+
+msgctxt "Languages::cool_splits"
+msgid "TODO"
+msgstr "Разбивки"
+
+msgctxt "Languages::cool_split"
+msgid "TODO"
+msgstr "Разбивка"
+
+msgctxt "Languages::add_split"
+msgid "TODO"
+msgstr "Добавить разбивку"
+
+msgctxt "Languages::cool_queries"
+msgid "TODO"
+msgstr "Категории выборок"
+
+msgctxt "Languages::all_queries"
+msgid "TODO"
+msgstr "Все выбороки"
+
+msgctxt "Languages::shutter_category"
+msgid "TODO"
+msgstr "Категория для выборки через API"
+
+msgctxt "Languages::shutter_query"
+msgid "TODO"
+msgstr "Запрос для выборки через API"
+
+msgctxt "Languages::sub_categories"
+msgid "TODO"
+msgstr "Запросы данной категории"
+
+msgctxt "Languages::add_item"
+msgid "TODO"
+msgstr "Добавить элемент"
+
+msgctxt "Languages::add_subquery"
+msgid "TODO"
+msgstr "Добавить элемент выборки"
+
+msgctxt "Languages::editing_split"
+msgid "TODO"
+msgstr "Редактирование разбивки"
+
+msgctxt "Languages::new_split"
+msgid "TODO"
+msgstr "Новая разбивка"
+
+msgctxt "Languages::editing_category_query"
+msgid "TODO"
+msgstr "Редактирование категории выборок"
+
+msgctxt "Languages::new_category_query"
+msgid "TODO"
+msgstr "Новая категория выборок"
+
+msgctxt "Languages::editing_query"
+msgid "TODO"
+msgstr "Редактирование выборки"
+
+msgctxt "Languages::new_query"
+msgid "TODO"
+msgstr "Новая выборка"
+
+msgctxt "Languages::back"
+msgid "TODO"
+msgstr "Назад"
+
+msgctxt "Languages::add_square"
+msgid "TODO"
+msgstr "Добавить квадрат"
+
+msgctxt "Languages::del_square"
+msgid "TODO"
+msgstr "Удалить квадрат"
+
+msgctxt "Languages::coolposter_menu_description"
+msgid "TODO"
+msgstr "Разбивки для модульных картин"
+
+msgctxt "Languages::no_keys"
+msgid "TODO"
+msgstr "Не установлены API ключи"
+
+msgctxt "Languages::poster_forms"
+msgid "Select poster forms"
+msgstr "Выберите форму - вывести подсказку"
+
+msgctxt "Languages::zoom_foto"
+msgid "Zoom foto"
+msgstr "Увеличить"
+
+msgctxt "Languages::pechat_text_vinil"
+msgid "Pechat text vinil"
+msgstr "Текст печать на виниле"
+
+msgctxt "Languages::pechat_text_holst"
+msgid "Pechat text holst"
+msgstr "Текст печать на холсте"
+
+msgctxt "Languages::pechat_text_steklo"
+msgid "Pechat text steklo"
+msgstr "Текст печать на стекле"
+
+
+msgctxt "Languages::poster_text_seo"
+msgid "poster text seo"
+msgstr "<h2>Как создать свою картину на холсте, стекле или виниле? Все очень просто!  Следуйте инструкции.</h2>
+
+<p>Современная печать на холсте дает очень хорошее качество и если, например, напечатать репродукцию современной картины, то ее часто тяжело отличить от оригинала, столь сочная и приятная получается картинка.</p>
+
+<p>Мы предлагаем огромный выбор из более 20 миллионов изображений, среди которых можно найти то, которое нужно именно вам и под ваши требования. Любое из них может быть использовано для создания картины. Примеры поисковых запросов сгруппированы в категории, чтобы проще было определиться с нужным направлением. Выбор изображения для картины — самый первый этап.  Срок изготовления картины — до 6 рабочих дней.</p>
+
+<p>Современная печать на холсте дает очень хорошее качество и если, например, напечатать репродукцию современной картины, то ее часто тяжело отличить от оригинала, столь сочная и приятная получается картинка.</p>"

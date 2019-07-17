@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+	<id>ip5_coolposter</id>
+	<version>1.0</version>
+	<priority>600</priority>
+	<position>120</position>
+	<status>active</status>
+	<authors>
+		<author>
+			<name>IP5</name>
+			<email>mail@ip-5.ru</email>
+			<url>http://ip-5.ru</url>
+			<phone>+7 978 213 7653</phone>
+		</author>
+	</authors>
+	<default_language>ru</default_language>
+	<auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+	<settings>
+		<sections>
+			<section id="general">
+				<items>
+					<item id="client_id">
+						<type>input</type>
+						<default_value>8d0f2e8c2bd861b39240</default_value>
+					</item>
+					<item id="client_secret">
+						<type>input</type>
+						<default_value>1d6afc17b6400f2bf73e0056c4f2cb5e7e4fc25b</default_value>
+					</item>
+				</items>
+			</section>
+		</sections>
+	</settings>
+	<queries>
+		<item>
+			CREATE TABLE `?:cool_uploads` (
+				`image_id` int(11) NOT NULL AUTO_INCREMENT,
+				`file_name` varchar(255) NOT NULL DEFAULT '',
+				`resized` varchar(255) NOT NULL DEFAULT '',
+				PRIMARY KEY (`image_id`)
+			) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+		</item>
+		<item>
+			CREATE TABLE `?:cool_categories` (
+				`category_id` int(11) NOT NULL AUTO_INCREMENT,
+				`name` varchar(255) NOT NULL DEFAULT '',
+				PRIMARY KEY (`category_id`),
+				UNIQUE (`name`)
+			) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+		</item>
+		<item>
+			CREATE TABLE `?:cool_splits` (
+				`split_id` int(11) NOT NULL AUTO_INCREMENT,
+				`category_id` int(11) NOT NULL DEFAULT '',
+				`rectangles` mediumtext NOT NULL DEFAULT '',
+				`orientation` mediumtext NOT NULL DEFAULT ''
+				PRIMARY KEY (`split_id`)
+			) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+		</item>
+		<item>
+			CREATE TABLE `?:cool_settings` (
+			`setting_id` int(11) NOT NULL AUTO_INCREMENT,
+			`pict_cost` mediumtext NOT NULL DEFAULT '',
+			`maket` mediumtext NOT NULL DEFAULT '',
+			`sm_plast` mediumtext NOT NULL DEFAULT '',
+			`sm_plexiglass` mediumtext NOT NULL DEFAULT '',
+			`sm_canvas` mediumtext NOT NULL DEFAULT '',
+			`sm_slglass` mediumtext NOT NULL DEFAULT '',
+			`stretcher_cost` mediumtext NOT NULL DEFAULT '',
+			`stretcher_angle` mediumtext NOT NULL DEFAULT '',
+			`varnish_cost` mediumtext NOT NULL DEFAULT '',
+			`profile_cost` mediumtext NOT NULL DEFAULT '',
+			`fastener_cost` mediumtext NOT NULL DEFAULT '',
+			`holder_cost` mediumtext NOT NULL DEFAULT '',
+			`obr_akril` mediumtext NOT NULL DEFAULT '',
+			`obr_silikat` mediumtext NOT NULL DEFAULT '',
+				PRIMARY KEY (`setting_id`)
+			) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+		</item>
+		<item>ALTER TABLE `?:categories` ADD `coolcategory` varchar(255) DEFAULT '' NOT NULL</item>
+		<item>ALTER TABLE `?:categories` ADD `coolquery` varchar(255) DEFAULT '' NOT NULL</item>
+        <item>ALTER TABLE `?:categories` ADD `cooltype` varchar(1) DEFAULT 'S' NOT NULL</item>
+		<item>ALTER TABLE `?:products` ADD `coolimage` int(11) DEFAULT '' NOT NULL</item>
+		<item>ALTER TABLE `?:products` ADD `localimage` varchar(255) DEFAULT '' NOT NULL</item>
+		<!--<item>ALTER TABLE `?:products` ADD `coolsplits` mediumtext DEFAULT '' NOT NULL</item>-->
+		<item type="file">database/default.sql</item>
+		<!--<item for="uninstall">ALTER TABLE `?:products` DROP `coolsplits`</item>-->
+		<item for="uninstall">ALTER TABLE `?:products` DROP `localimage`</item>
+		<item for="uninstall">ALTER TABLE `?:products` DROP `coolimage`</item>
+        <item for="uninstall">ALTER TABLE `?:products` DROP `cooltype`</item>
+		<item for="uninstall">ALTER TABLE `?:categories` DROP `coolcategory`</item>
+		<item for="uninstall">ALTER TABLE `?:categories` DROP `coolquery`</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:cool_uploads;</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:cool_splits;</item>
+		<item for="uninstall">DROP TABLE IF EXISTS ?:cool_categories;</item>
+	</queries>
+</addon>

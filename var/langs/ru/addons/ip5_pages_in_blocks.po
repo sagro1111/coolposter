@@ -1,0 +1,14 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ip5_pages_in_blocks"
+msgid "IP5 Agency — pages content in blocks"
+msgstr "[IP5 Agency] — Размещение содержимого страницы в блоках"
+
+msgctxt "Addons::description::ip5_pages_in_blocks"
+msgid "Позволяет выводить содержимое страницы в блоки"
+msgstr "Позволяет выводить содержимое страницы, формы в блоках или на вкладках товара"
+

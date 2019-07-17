@@ -1,0 +1,1 @@
+{style src="addons/ip5_pages_in_blocks/styles.less"}

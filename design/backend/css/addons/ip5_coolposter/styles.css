@@ -1,0 +1,68 @@
+#cool_subqueries {
+	margin-bottom: 50px;
+}
+
+canvas {
+	border: 1px solid #1a437d;
+}
+
+.cool-admin {
+	margin-bottom: 20px;
+}
+
+.cool-wrapper {
+	float: left;
+	width: 190px;
+	margin-right: 5px;
+	position: relative;
+}
+.poster-title,
+.poster-title h4 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.poster-orientation {
+	display: block;
+}
+.poster-orientation label {
+	display: inline-block;
+	padding: 10px 20px;
+}
+.poster-orientation label input {
+	margin: 0px;
+	display: inline-block;
+}
+
+
+.cool-delete {
+	position: absolute;
+	right: 15px;
+	top: 30px;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	vertical-align: text-top;
+	background-image: url('../../../../../../../design/backend/media/images/lib/twitterbootstrap/glyphicons-halflings.png?1473335454');
+	background-position: -456px 0;
+	background-repeat: no-repeat;
+	margin-top: 1px;
+	text-indent: -9999px;
+}
+.cool-edit {
+	position: absolute;
+	right: 15px;
+	top: 0px;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	vertical-align: text-top;
+	background-image: url('../../../../../../../design/backend/media/images/lib/twitterbootstrap/glyphicons-halflings.png?1473335454');
+	background-position: -432px 0;
+	background-repeat: no-repeat;
+	margin-top: 1px;
+	text-indent: -9999px;
+}
+
+

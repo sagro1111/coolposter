@@ -1,0 +1,57 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::ip5_google_recaptcha"
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+msgctxt "Addons::description::ip5_google_recaptcha"
+msgid "Replace default captcha to google recaptcha"
+msgstr "Заменяет стандартную анти-бот проверку на Google reCAPTCHA"
+
+msgctxt "SettingsSections::ip5_google_recaptcha::elm_Settings"
+msgid "Default settings"
+msgstr "Стандартные настройки"
+
+msgctxt "SettingsOptions::ip5_google_recaptcha::key"
+msgid "Key"
+msgstr "Ключ"
+
+msgctxt "SettingsOptions::ip5_google_recaptcha::secretkey"
+msgid "Secret Key"
+msgstr "Секретный ключ"
+
+msgctxt "SettingsTooltips::ip5_google_recaptcha::key"
+msgid "Key (<a target=\"_blank\" href=\"https://www.google.com/recaptcha/intro/index.html\">find on this page</a>)"
+msgstr "Скопируйте ключ с  (<a target=\"_blank\" href=\"https://www.google.com/recaptcha/intro/index.html\">этой страницы</a>)"
+
+msgctxt "SettingsTooltips::ip5_google_recaptcha::secretkey"
+msgid "Secret Key (<a target=\"_blank\" href=\"https://www.google.com/recaptcha/intro/index.html\">find on this page</a>)"
+msgstr "Скопируйте секретный ключ с (<a target=\"_blank\" href=\"https://www.google.com/recaptcha/intro/index.html\">этой страницы</a>)"
+
+msgctxt "SettingsOptions::ip5_google_recaptcha::type"
+msgid "The type of CAPTCHA to serve"
+msgstr "Выберите тип CAPTCHA"
+
+msgctxt "SettingsVariants::ip5_google_recaptcha::type::image"
+msgid "Image"
+msgstr "Изображение"
+
+msgctxt "SettingsVariants::ip5_google_recaptcha::type::audio"
+msgid "Audio"
+msgstr "Аудио"
+
+msgctxt "SettingsOptions::ip5_google_recaptcha::theme"
+msgid "Theme"
+msgstr "Оформление"
+
+msgctxt "SettingsVariants::ip5_google_recaptcha::theme::light"
+msgid "Light"
+msgstr "Светлое"
+
+msgctxt "SettingsVariants::ip5_google_recaptcha::theme::dark"
+msgid "Dark"
+msgstr "Темное"
