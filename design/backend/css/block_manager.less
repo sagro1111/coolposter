@@ -78,10 +78,10 @@
 }
 
 .grid-off, .container-off {
-    .block .icon-off, .grid .icon-trash, .grid .icon-cog, .grid .icon-plus {
+    .block .exicon-off, .grid .exicon-trash, .grid .exicon-cog, .grid .icon-plus {
         opacity: 0.2 !important;
     }
-    .block-off .icon-off, .grid .icon-off {
+    .block-off .exicon-off, .grid .exicon-off {
         display: none;
     }
     background: #e7e7e7;
@@ -108,7 +108,7 @@
     }
 }
 .container-off {
-    .grid .icon-off, .grid .icon-trash, .grid .icon-cog, .grid .icon-plus {
+    .grid .exicon-off, .grid .exicon-trash, .grid .exicon-cog, .grid .icon-plus {
         display: none;
     }
 }
@@ -265,12 +265,6 @@
     margin-bottom: -3px;
     position: absolute;
     right: 0;
-    .action {
-        color: #000;
-        a {
-            color: #000;
-        }
-    }
 }
 
 .bm-full-width > .ui-hover-block.pull-right, .bm-full-width > .ui-hover-block.pull-left {
@@ -399,11 +393,11 @@
         .block-control-menu {
             background-color: #fafafa !important;
             border-top: 1px solid #f2f2f2 !important;
+            [class^="exicon-"], [class*=" exicon-"] {
+                background-image: url('images/exicons.png');
+            }
         }
-        .action {
-            color: #000;
-        }
-        .icon-cog, .icon-trash {
+        .exicon-cog, .exicon-trash {
             opacity: 0.2;
         }
     }
@@ -475,17 +469,17 @@
     padding: 0px 5px 0px 8px;
     .btn-group.action {
         float: left;
-        margin-top: 0;
+        margin-top: -10px;
         .dropdown-menu {
             margin: 16px 0 0;
         }
     }
     .action {
+        margin-top: 5px;
         padding: 5px 3px 3px 0px;
         cursor: pointer;
         opacity: 0.6;
         float: left;
-        text-align: center;
         &:hover {
             opacity: 1;
         }
@@ -494,19 +488,20 @@
         opacity: 1;
         visibility: visible;
     }
-    .icon-trash {
+    .exicon-trash {
         float: right !important;
     }
 }
 
 .block-control-menu {
     background-color: #08c;
-    .action {
-        color: #fff;
+    [class^="exicon-"], [class*=" exicon-"] {
+        background-image: url('images/exicons_white.png');
     }
     .action-properties {
         margin: 3px 0 0 0;
         .icon-cog {
+            background-image: url('../../../media/images/lib/twitterbootstrap/glyphicons-halflings-white.png');
             opacity: 0.6;
             &:hover {
                 opacity: 1;
